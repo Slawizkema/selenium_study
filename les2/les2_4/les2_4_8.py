@@ -20,7 +20,6 @@ browser.execute_script("return arguments[0].scrollIntoView(true)", submit_button
 submit_button.click()
 
 
-
 # calc answer
 x_element = browser.find_element(By.CSS_SELECTOR, '.form-group .nowrap#input_value')
 calc_result = main.calc(x_element.text)
